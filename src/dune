@@ -1,0 +1,13 @@
+(executable
+ (public_name caqti_loading)
+ (name main)
+ (libraries
+  ptime
+  uri
+  eio
+  eio_main
+  eio.unix
+  caqti
+  caqti-eio
+  caqti-eio.unix
+  caqti-driver-sqlite3))
